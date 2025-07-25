@@ -53,6 +53,18 @@ If sources conflict, **trust the sprite** or ask the user.
 
 ---
 
+### Bright Red Combat Gloves  *(Krav Maga sprite)*
+
+**Sprite call-outs**  
+- Vivid red, full-finger gloves (no exposed fingertips).  
+- Slightly bulky padding over knuckles and back of hand.
+
+**Prompt wording snippet**  
+> “bright red combat gloves covering the entire hand”
+
+**Common pitfalls** → rendered as black tactical gloves • fingerless style.
+
+
 _Add more objects below this line as they’re identified…_
 
-Version 0.0
+Version 0.2
