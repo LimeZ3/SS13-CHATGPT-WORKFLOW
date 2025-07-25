@@ -1,2 +1,18 @@
-Test-test
-Hey ChatGPT! Can you read this? The code phrase is Tajarans dont joke around
+# Common SS13 Illustration Pitfalls & Fixes
+
+| Mistake | Typical Symptom | Fix / Prompt Snippet |
+|---------|-----------------|----------------------|
+| **HUDSunglasses render as plain black shades** | no red/orange HUD glare | “black security HUD sunglasses – dark lenses showing a diagonal red-orange HUD glow across each lens” |
+| **ID badge text is garbled** | unreadable Cyrillic, random glyphs | “grey cartridge ID badge with small red status light (no readable text)” |
+| **Gas masks turn into sleek modern respirators** | wrong shape/filters | “matte-black SS13 security gas mask – dual side filters, boxy front grill” |
+| **Background color mismatched to department** | sec scene tinted blue | remind: Sec→red corridor · Med→teal bay · Eng→yellow workshop |
+| **Unrequested weapons appear** | pistol or baton in hand | add to prompt: “arms empty-handed” |
+| **Wrong species silhouette** | Skrell with human ears | include species cue: “no visible ears, amphibian crest” |
+| **Excessive soft shading** | painterly gradient all over | specify: “flat 1-step cel shading only” |
+| **Tail forgotten (Tajaran / Vox / Unathi)** | tail absent | “…long striped feline tail visible behind legs” (or race-specific) |
+| **Bowman headset morphs into earbuds** | tiny modern earbud | “bulky over-ear security bowman headset with short antenna” |
+| **Mouse ears read as cat ears** | rounded shape becomes pointed | “large rounded Disney-style mouse ears headband (no cat points)” |
+
+> When in doubt, copy–paste the exact Fix snippet into the main prompt right after the object mention.
+
+Version 0.0
