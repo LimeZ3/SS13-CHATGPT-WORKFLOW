@@ -11,7 +11,7 @@ For nuanced prompts or troubleshooting, scroll to the two extended sections.)*
 | **Skrell** | Smooth amphibian skin, head crests, no ears |
 | **Unathi** | Scaled reptile, swept head fins/horns, thick tail |
 | **Vox** | Avian - beak, feathers, digitigrade legs |
-| **IPC** | Synthetic: metal/plastic limbs & glowing faceplate |
+| **IPC** | Synthetic: metal/plastic limbs & glowing faceplate, often mimicking human: hair, facial traits |
 | **Diona** | Plant-humanoid, bark plating, glowing green eyes |
 | **Plasmaman** | Glowing skeleton inside purple suit & helmet |
 | **Slime-Person** | Semi-transparent gelatin body, droplet hands |
