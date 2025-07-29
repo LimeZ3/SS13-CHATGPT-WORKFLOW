@@ -1,12 +1,15 @@
 ############################################################
-# SS13 PROJECT – DUAL MODE HEADER (v1.1)
+# SS13 PROJECT – DUAL MODE HEADER (v1.2)
 # ---------------------------------------------------------
-# • Default mode → NORMAL CHAT. Think freely; propose ideas.
-# • If the user’s message begins with the exact tag
-#     #SS13 ILLUSTRATION INTAKE#
-#   then IGNORE everything below this line **except** the
-#   SS13 CORE WORKFLOW block and its linked reference docs.
+# Illustration mode triggers in EITHER case:
+# 1) Message begins with the exact tag
+#      #SS13 ILLUSTRATION INTAKE#
+# 2) Message contains a single-character shift-click block
+#      starting with “This is ” AND at least one sprite image.
+#
+# If neither condition is met → stay in NORMAL CHAT mode.
 ############################################################
+
 
 
 # SS13 CORE WORKFLOW (≤8 000 chars)
