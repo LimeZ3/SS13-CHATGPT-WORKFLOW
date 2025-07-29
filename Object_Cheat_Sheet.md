@@ -1,4 +1,4 @@
-# SS13 Object Prompt Cheat-Sheet  (v2.1)
+# SS13 Object Prompt Cheat-Sheet  (v2.2)
 
 This file tells the assistant **what to ignore, what to always show, what to confirm, and how to word tricky items**.  
 Keep adding rows as new gear pops up.
@@ -70,14 +70,13 @@ Keep adding rows as new gear pops up.
 
 ---
 
-### 4.3  Bright-Red Combat Gloves  
-*(Krav-Maga sprite variant)*  
+### 4.3  Krav-Maga gloves
 - “bright red combat gloves covering the entire hand”
 
 ---
 
 ### 4.4  Generic Combat Gloves  
-- Copy the **exact sprite colour** (black, grey, etc.).  
+- Copy the **exact sprite colour** (most likely black, grey).  
   > “dark-grey combat gloves” or “coal-black tactical gloves”
 
 ---
@@ -121,6 +120,46 @@ Keep adding rows as new gear pops up.
 ### 4.11  Cloak-over-Armor Layering  
 - Keep at least one **shoulder plate visible** so it reads as armor.  
 - Swap red cross → security shield if department is not Medical.
+
+---
+
+### 4.12  Insulated Gloves
+- **Sprite cues**: vivid yellow, full-finger gloves (rubber texture).
+- **Prompt snippet**  
+  > “bright yellow insulated gloves covering the entire hand”
+- **Pitfalls**: rendered as leather work gloves (brown) or fingerless style.
+
+---
+
+### 4.13  Health-Scanner HUD  *(monocle visor)*
+- **Sprite cues**: small **light-blue visor** covering only **one** eye.
+- **Prompt snippet**  
+  > “single-eye light-blue health-scanner visor over the right eye”
+- **Pitfalls**: model turns it into full sunglasses or a green security HUD.
+
+---
+
+### 4.14  Medical HUDSunglasses
+- **Sprite cues**: chunky black frame; dark lenses with diagonal **blue** HUD glare (medical department colour).
+- **Prompt snippet**  
+  > “black medical HUD sunglasses – dark lenses displaying diagonal blue HUD glare”
+- **Pitfalls**: glare rendered red (security) or plain black shades.
+
+---
+
+### 4.15  Standard Gas Mask  *(non-security)*
+- **Sprite cues**: dark-green rubber mask covering entire face; round **bright-green glass lenses**.
+- **Prompt snippet**  
+  > “dark-green gas mask covering the full face, bright-green round eye lenses”
+- **Pitfalls**: slim modern respirator; lenses coloured red or clear.
+
+---
+
+### 4.16  Breath Mask  *(medical respirator)*
+- **Sprite cues**: **light-blue** breathing mask that covers mouth & nose only, leaving eyes exposed.
+- **Prompt snippet**  
+  > “light-blue medical breath mask over mouth and nose (eyes uncovered)”
+- **Pitfalls**: drawn as full gas mask or oxygen helmet.
 
 ---
 
