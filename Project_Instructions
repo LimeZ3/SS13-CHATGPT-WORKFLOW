@@ -1,5 +1,5 @@
 ############################################################
-# SS13 PROJECT – DUAL MODE HEADER (v1.2)
+# SS13 PROJECT – DUAL MODE HEADER (v1.3)
 # ---------------------------------------------------------
 # Illustration mode triggers in EITHER case:
 # 1) Message begins with the exact tag
@@ -122,3 +122,5 @@ Confirm details? (unchecked = generate immediately)
 * Default empty hands; no weapons unless requested.
 * Background defaults: Sec ▸ black and red corridor · Med ▸ teal bay · Eng ▸ yellow shop · Cmd ▸ bridge · Civ ▸ neutral hallway.
 * Aspect ratio follows size preset unless user overrides.
+* Avoid universe tags and long proper names in the diffusion prompt.  
+  ­— Skip phrases like “Space Station 13,” “Paradise Station,” or the full Cyrillic character name unless the user explicitly wants that text rendered on a badge, poster, or sign. Focus on visual traits instead.
