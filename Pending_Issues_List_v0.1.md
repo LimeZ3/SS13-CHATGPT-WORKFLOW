@@ -64,7 +64,7 @@ We’ll tick them off or rewrite as we implement fixes.
 
 ---
 
-### Species & Anatomy
+### Species & Anatomy - FIX SUBMITTED
 
 - **Anthro fur vs. hair confusion**  
   *White Vulp/Taj muzzle read as skull mask; need separate fur-colour vs. hair-colour.*
