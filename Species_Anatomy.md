@@ -33,6 +33,7 @@ For nuanced prompts or troubleshooting, scroll to the two extended sections.)*
 | **Hair fringe covering visor** | Anthro *has hair length* → keep bangs in illustration (prevents short-hair mismatch). |
 | **No ears + smooth blue-green skin** | **Skrell** |
 | **Glowing faceplate + joint seams** | **IPC** |
+| **Glowing faceplate + joint seams + visible hair** | **IPC (humanoid subtype)** |
 | **Purple hazmat suit, glowing ribs** | **Plasmaman** |
 
 > **Prompt hint:** when you detect one of these cues, front-load it in the prompt
@@ -50,6 +51,7 @@ For nuanced prompts or troubleshooting, scroll to the two extended sections.)*
 | **Unathi** | Hard scales, swept horns, thick tail, tall digitigrade legs. | Head fins flattened; tail missing. | “green scaled Unathi, swept-back head fins, thick reptile tail behind legs.” |
 | **Vox** | Bird beak, feather ruff, digitigrade legs. | Beak flattened to human nose. | “avian Vox with sharp grey beak and neck feathers.” |
 | **IPC** | Joint seams, glowing ‘face’ panel, no flesh. | Adds human skin patches or ears. | “white polymer IPC, glowing cyan faceplate, mechanical joints.” |
+| **IPC (humanoid subtype)** | Synthetic “hair” fibres, small oval faceplate, human-like jawline. | Draws full metal helmet, deletes hair. | “sleek IPC with long dark synthetic hair ponytail draping behind head, small oval cyan eye-screen (no full helmet).” |
 | **Diona** | Bark plates, leaves/vines hair, bioluminescent eyes. | Full humanoid skin. | “wood-bark plating and leaf hair.” |
 | **Plasmaman** | Transparent suit, glowing bones; always helmeted. | Shows bare skull or removes suit. | “purple pressurised suit encasing glowing skeleton.” |
 | **Nian** | Furry chest, antennae, colourful wings. | Wings dropped; antennae turned to hair. | “large midnight-blue wings unfurled, fluffy antennae.” |
