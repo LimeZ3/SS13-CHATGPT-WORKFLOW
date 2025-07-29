@@ -1,4 +1,4 @@
-# SS13 Object Prompt Cheat-Sheet  (v2.0)
+# SS13 Object Prompt Cheat-Sheet  (v2.1)
 
 This file tells the assistant **what to ignore, what to always show, what to confirm, and how to word tricky items**.  
 Keep adding rows as new gear pops up.
@@ -16,38 +16,39 @@ Keep adding rows as new gear pops up.
 ---
 
 ## 1 · Default Omit List  
-*(ignore unless the user insists, because they rarely show in the sprite)*
+*(Ignore unless the user explicitly asks for them, because they rarely show in sprite silhouettes)*  
 
-- Security / command **bowman headsets**  
-- **PDA** or wallet cartridge (unless name text requested)  
-- **Seclite** flashlight (chest-clipped)  
-- Unextended **MOD suit control unit**  
-- Generic **security belt** (plain pouches, no heroic weapon)  
-- **Holobadge** (single-pixel chest square)  
-- **Standard satchel / backpack** (unless sprite back-view or user asks)  
+- **Bowman headsets** – any department.  
+- **PDA / wallet cartridge** (omit name text unless user insists).  
+- **Seclite flashlight / penlight** clipped to chest.  
+- **Un-extended MOD-suit control unit**  
+  *Tip ▸ If shift-click only says “MOD control unit on back” and does **not** list boots / gauntlets, the suit is UN-extended → safe to omit.*  
+- **Plain pouches / satchels / duffelbags** without distinctive markings.  
+- **Holobadge** (1-pixel chest square).  
+- **Standard satchel / backpack** (unless sprite back-view supplied or user requests).  
 
 ---
 
 ## 2 · Always Render List — “tiny but iconic”  
-*(include even if only 1–2 pixels in the sprite)*
 
-- **Cigars / cigarettes / cigarillo**  
-- Any type of **eyewear** (glasses, monocle, HUD shades, Sunscanners)  
-- **Rings** or **wristwatches** that appear in text  
-- **Gloves** — copy sprite colour; only force bright-red if text says so  
+*(Include even if the sprite shows only 1–2 pixels.)*
+
+- **Cigars / cigarettes / cigarillos**  
+- **Eyewear** of any kind – glasses, monocle, HUD shades, Sunscanners, etc.  
+- **Rings** or **wristwatches** mentioned in text.  
+- **Gloves** – use sprite colour; force bright-red only if text explicitly states red.
 
 ---
 
 ## 3 · Ask-the-User Items  
-*(stop and confirm before image generation)*
 
-| Trigger text / situation | Ask this question |
-|--------------------------|-------------------|
-| **ID badge** + user wants readable text | “Latin or Cyrillic? Text may blur—okay to show plain cartridge?” |
-| **Gas mask** listed but sprite shows muzzle uncovered | “Gas mask is lowered on sprite—keep it off the face?” |
-| **Bare torso or overly revealing outfit** | “Content filters prefer at least a sleeveless shirt; add one?” |
-| **Cloak over armor with red cross** | “Cross symbol looks Medical—use security shield emblem instead?” |
-| **Hardsuit colour unclear in text** | “Confirm hardsuit striping: black-blue, black-red, or blue-gold?” |
+| Trigger text / situation | Clarifying question |
+|--------------------------|---------------------|
+| **Gas mask** listed but sprite shows muzzle uncovered | “Gas mask is lowered in the sprite – keep it off the face?” |
+| **Bare torso / revealing outfit** | “Content filters prefer at least a sleeveless shirt; OK to add one?” |
+| **Hardsuit mentioned but colour/department unclear** | “Which hardsuit variant? Sec = black-red, Cap = blue-gold, CE = white, Engineer = brown-orange, Med = lightblue-white, Blueshield = black-blue, or other?” |
+
+*(ID badges default to the omit list; only ask if the user specifically says “show the ID text.”)*
 
 ---
 
