@@ -18,7 +18,7 @@ We’ll tick them off or rewrite as we implement fixes.
 
 ---
 
-### Gear & Prop Fidelity
+### Gear & Prop Fidelity FIX SUBMITTED
 
 - **HUD-type glasses errors**  
   *Security HUD shades render plain black or wrong-colour glare; Sunscanners gain random text.*
@@ -46,7 +46,7 @@ We’ll tick them off or rewrite as we implement fixes.
 
 ---
 
-### Colour & Material Accuracy
+### Colour & Material Accuracy FIX SUBMITTED
 
 - **Combat-glove colour drift**  
   *Bright-red Krav gloves appear black — OR dark gloves forced red.*
@@ -80,7 +80,7 @@ We’ll tick them off or rewrite as we implement fixes.
 
 ---
 
-### Armour & Clothing
+### Armour & Clothing FIX SUBMITTED
 
 - **Armor vs. cloak layering**  
   *Cloak hides security armor or swaps red cross (Medical) onto Sec plate.*
